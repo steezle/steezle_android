@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">invitereferrals</string>
+    <string name="more_options">Altre opzioni per condividere</string>
+    <string name="stats">Le mie Statistiche Referral</string>
+    <string name="tnc">Termini e condizioni</string>
+    <string name="how_it_works">Come funziona</string>
+
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="register">registro</string>
+    <string name="valid_email">Inserisci valido ID e-mail</string>
+</resources>

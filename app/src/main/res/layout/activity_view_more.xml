@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back_click_clothing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/arrow"
+            android:padding="@dimen/_5sdp" />
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/back_click_clothing"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="14dp"
+            android:gravity="center_vertical"
+            android:layout_toEndOf="@+id/back_click_clothing"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+ <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTING"
+        android:textSize="@dimen/_12sdp"
+        android:padding="@dimen/_10sdp"
+        android:ApplyFilter="#55d3d3d3"/>
+
+ -->   <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_2b" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <include layout="@layout/content_more" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/iv_btnIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_logout"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_btnTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_btnIcon"
+            android:layout_centerVertical="true"
+            android:text="LOGOUT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+
+
+
+
+
+

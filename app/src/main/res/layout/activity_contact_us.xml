@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_click_clothing"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow" />
+
+            <TextView
+                android:id="@+id/activtiy_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_toEndOf="@+id/back_click_clothing"
+                android:gravity="center"
+                android:text="Contact Customer Service"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/TextViewBlack" />
+
+
+        </RelativeLayout>
+        <View android:background="@color/gray_2b"
+            android:layout_width = "match_parent"
+            android:layout_height="1dp"/>
+
+        <include
+            layout="@layout/more_termscondition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"/>
+
+</android.support.design.widget.CoordinatorLayout>

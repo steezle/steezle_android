@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/juli/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/15ba85781f867352f024c8166f5498d4/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/juli/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/613c81ce103bb31d4cfed7c6b7e7ee51/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

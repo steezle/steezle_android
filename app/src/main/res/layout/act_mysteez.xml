@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_click_clothing"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/activtiy_title"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="9dp"
+                android:background="@drawable/arrow"
+                android:padding="@dimen/_5sdp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@+id/back_click_clothing"
+                android:gravity="center"
+                android:text="@string/Mysteez"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:theme="@style/TextViewBlack" />
+
+            <ImageView
+                android:id="@+id/iv_userIcon"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/linearLayout3"
+                android:padding="@dimen/_2sdp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_user"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:id="@+id/rl_cart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <ImageView
+                        android:id="@+id/iv_favourite"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_shoppingbag" />
+
+                    <TextView
+                        android:id="@+id/tv_favourite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:text="0"
+                        android:theme="@style/TextViewWhite" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_2b" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rec_emptyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <ImageView
+                android:id="@+id/iv_empty_favourite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/emptywishlist"
+                android:gravity="center"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

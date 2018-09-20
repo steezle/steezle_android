@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="10dp"
+                android:height="10dp"/>
+            <solid android:color="@color/black"/>
+            <stroke android:color="@color/background_tab_pressed"
+                android:width="@dimen/_4sdp"></stroke>
+        </shape>
+    </item>
+</selector>

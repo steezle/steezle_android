@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Steezle</string>'
+    <!--  Login  Screen -->
+    <string name="btnlogin">Sign In</string>
+    <string name ="Email">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="privacy_policy">Privacy &amp; Security Policy</string>
+    <!-- Register Screen -->
+    <string name="btnregister">Sign Up</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="unisex">Unisex</string>
+
+
+    <string name="itex">Steezle is a mobile application that showcases the best brands, products and styles in Toronto fashion. Utilizing swipe technology, Steezle is an online marketplace that allows users to find and buy the latest and best products, all from the comfort of their own pocket. Steezle’s fun, interactive, safe and easy to use platform brings together the coolest brands with the people who love them.</string>
+
+    <string name="html">
+
+        <p>Steezle is a mobile application that showcases the best brands, products and styles in Toronto fashion. Utilizing swipe technology, Steezle is an online marketplace that allows users to find and buy the latest and best products, all from the comfort of their own pocket. Steezle’s fun, interactive, safe and easy to use platform brings together the coolest brands with the people who love them.</p>
+
+    </string>
+
+
+
+    <string name="logout_text">Are you sure you want to logout?</string>
+    <string name="servererror">Internal Server Error.Please  try again.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- Forgot screen -->
+    <string name ="btnsubmit">Submit</string>
+    <string name="forgotstring">Enter your email address  and we  will  send you  an  email to reset your  password.</string>
+
+    <!--<string name="facebook_app_id">1396934647119692</string>-->
+
+    <string name="facebook_app_id">2154746064754933</string>
+
+    <!--Measurements  screen -->
+    <string name="Measurements"> Your Measurements</string>
+    <string name="Measurementstitile">Measurements</string>
+    <string name="m_subtitle">This will filter clothing results based on yor size.</string>
+    <string name="Shoulder">Shoulder</string>
+    <string name="Chest">Chest</string>
+    <string name="Waist">Waist</string>
+    <string name="Inseam">Inseam</string>
+    <string name="Neck">Neck</string>
+    <string name="Arm">Arm</string>
+    <string name="Tip">Tip</string>
+    <string name="Tiptiltle">Wrap to measuring tape around the base of your neck,going around your Adam apple.Ensure that the  tape is consistently level and that  you are not wrapping the tape  to tightly around yor nack.</string>
+    <string name= "savetoconstinue">Save to Continue</string>
+    <string name="saveforlater">Save For Later</string>
+
+
+
+    <!-- tab menu -->
+    <string  name="Explore">Explore</string>
+    <string  name="Mysteez">My Steez</string>
+    <string name="orders">Orders</string>
+    <string name="settings">Settings</string>
+
+    <!-- Setiings -->
+    
+    <string name="profile">Profile</string>
+    <string name="address">Address</string>
+    <string name="payment">Payment</string>
+
+<!-- measurement Screen -->
+
+    <string name="shoulder">Shoulder(cm)</string>
+    <string name="chest">Chest(cm)</string>
+    <string name="waist">Waist(cm)</string>
+    <string name="inseam">Inseam(cm)</string>
+    <string name="neck">Neck(cm)</string>
+    <string name="arm">Arm(cm)</string>
+
+
+    <!-- Address  Screen _-->
+    <string name="name">Name</string>
+    <string name="address1">Address Line 1</string>
+    <string name="address2">Adreess Line 2</string>
+     <string name="phonenumber">Phone Number</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="zipcode">Zip/Postal Code</string>
+    <string name="savetoaddress">Save Address</string>
+
+
+    <string name="cardname">Please enter your cardName</string>
+    <string name="cpassword">Password does not match</string>
+    <string name="genders">Please select Gender</string>
+    <string name="error_empty_email">Please enter your email address</string>
+    <string name="error_valid_email">Please enter valid email address </string>
+    <string name="error_empty_passsword">Please enter your password</string>
+    <string name="error_empty_conpasssword">Please enter your password </string>
+    <string name="zipcode_validation">Please enter zipcode</string>
+    <string name="validpassword">Password must contain at least 8 characters including 1 Uppercase Alphabet,Lowercase Alphabet, Number</string>
+    <string name="type_password">Password must contain at least 8 characters including 1 Uppercase Alphabet,Lowercase Alphabet, Number</string>
+    <string name="error_valid_cpass">Password does not match!</string>
+    <string name ="gender">Please choose gender!</string>
+    <string name="error_empty_cpass">Please enter your confirm password </string>
+    <string name="validfiled">The username or password is empty please try again</string>
+    <string namr="passwordreset">Your password has been successfully reset. Please check your email and login </string>
+    <string name="productdelete" >Do you want to remove this item?</string>
+    <string name="creditcard">Credit card successfully saved</string>
+    <string name="phonerror">Please enter your phone number</string>
+    <string name="phonevlaidation">Please enter a valid phone number</string>
+    <string name="postcode">Please enter a valid Postal Code</string>
+    <string name="creditcardremove">Are you sure you want to remove this credit card?</string>
+    <string name="passwordreset">Your password has been successfully reset. Please check your email and login!</string>>
+
+    <string name="title_activity_popup">popup</string>
+    <string name="privacy_and_security_policy">Privacy &amp; Security Policy</string>
+    <string name="faq_and_return_policy">FAQ &amp; Return Policy</string>
+
+    <string name="super_2">"<sup><small>2</small></sup>"</string>
+</resources>

@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.steezle.e_com"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 14
+        versionName "1.0.14"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+        multiDexEnabled true
+    }
+
+    /* buildTypes {
+         release {
+             minifyEnabled true
+             proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                     'proguard-rules.pro'
+         }
+     }*/
+    dexOptions {
+        javaMaxHeapSize "4g" //specify the heap size for the dex process
+    }
+
+    repositories {
+        maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+    }
+
+    android {
+        aaptOptions
+                {
+                    cruncherEnabled = false
+                }
+
+
+        lintOptions {
+            checkReleaseBuilds false
+            abortOnError false
+        }
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+    }
+
+    /*configurations {
+        all {
+            exclude module: 'httpclient'
+        }
+    }*/
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':invitereferrals')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    //testImplementation 'junit:junit:4.12'
+    //androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.3.0'
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.mindorks:butterknifelite:0.0.3'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+    compile 'com.google.android.gms:play-services-location:11.8.0'
+    compile 'com.google.android.gms:play-services-places:11.8.0'
+    implementation 'com.mindorks:placeholderview:0.7.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+
+    implementation('org.apache.httpcomponents:httpmime:4.3') {
+        exclude module: "httpclient"
+    }
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'cz.msebera.android:httpclient:4.4.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    implementation 'com.facebook.android:facebook-android-sdk:4.31.0'
+    //Payment gateway
+    implementation 'com.stripe:stripe-android:6.1.0'
+    implementation 'com.google.android.gms:play-services:11.8.0'
+    //Compress Images & Videos
+    implementation 'com.iceteck.silicompressorr:silicompressor:2.1'
+    //Read more textview
+    implementation 'com.borjabravo:readmoretextview:2.1.0'
+    //Expandable TextView
+    implementation 'at.blogc:expandabletextview:1.0.5'
+//    implementation 'com.uncopt:android.justified:1.0'
+    implementation 'me.biubiubiu.justifytext:library:1.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

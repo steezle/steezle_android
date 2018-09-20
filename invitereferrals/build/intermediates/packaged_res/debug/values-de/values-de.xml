@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">invitereferrals</string>
+    <string name="email">Email</string>
+    <string name="how_it_works">Wie es funktioniert</string>
+    <string name="more_options">Weitere Optionen zu teilen</string>
+    <string name="name">Name</string>
+    <string name="register">Neu registrieren</string>
+    <string name="stats">Meine Empfehlungsstatistik</string>
+    <string name="tnc">Geschäftsbedingungen</string>
+    <string name="valid_email">Geben Sie die gültige E-Mail-ID ein</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.steezle.e_com.utils.ExtendedViewPager
+        android:id="@+id/vp_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/rlCart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_1sdp">
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/round_icon_bg"
+            android:padding="10dp"
+            android:src="@mipmap/ic_back_black" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dots"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:background="@android:color/white"
+        android:gravity="center|center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_5sdp">
+
+    </LinearLayout>
+
+</RelativeLayout>

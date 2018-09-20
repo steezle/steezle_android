@@ -1,0 +1,13 @@
+#Mon Jun 18 16:36:04 IST 2018
+path.3=classes2.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/debug/1
+base.2=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/debug/0
+base.1=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/debug/2
+base.0=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/debug/1

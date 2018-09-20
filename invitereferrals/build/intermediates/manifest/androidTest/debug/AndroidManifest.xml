@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.invitereferrals.invitereferrals.test" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.invitereferrals.invitereferrals.test"
+        android:targetPackage="com.invitereferrals.invitereferrals.test" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity android:name="com.invitereferrals.invitereferrals.CampaignLogin" />
+        <activity android:name="com.invitereferrals.invitereferrals.ShareScreen" />
+
+        <receiver
+            android:name="com.invitereferrals.invitereferrals.InviteReferrerBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

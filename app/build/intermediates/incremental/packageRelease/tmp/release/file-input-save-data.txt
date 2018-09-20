@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Fri Jun 01 18:45:05 IST 2018
+1.base=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/release/0
+2.path=classes2.dex
+0.baseType=DIRECTORY
+2.base=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/transforms/dexMerger/release/0
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=fonts/fonts.ttf
+0.set=ASSET
+0.base=/home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/assets/release
+2.baseType=DIRECTORY
+1.path=classes.dex

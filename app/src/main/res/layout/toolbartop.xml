@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    style="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:layout_marginLeft="-10dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/back_click"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/arrow"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/activtiy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/back_click"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/back_click"
+            android:gravity="right"
+            android:text="My Steezle"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/card_clickbvbvbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_shoppingbag"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/card_clickbvbvbar"
+            android:layout_alignRight="@+id/card_clickbvbvbar"
+            android:layout_alignTop="@+id/activtiy_title"
+            android:text="0"
+            android:layout_alignLeft="@+id/card_clickbvbvbar"
+            android:layout_alignStart="@+id/card_clickbvbvbar"/>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
+
+
+
+
+

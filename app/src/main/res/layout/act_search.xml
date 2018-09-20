@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/searchbtn"
+            android:layout_toStartOf="@+id/tv_back_search"
+            android:hint="Search"
+            android:drawableStart="@drawable/ic_search_small"
+            android:drawableTint="@android:color/darker_gray"
+            android:singleLine="true"
+            android:windowSoftInputMode="stateVisible"
+            android:maxLines="1"
+            android:focusable="true"
+            android:inputType="textCapSentences"
+            android:textColor="@color/colorPrimary"
+            android:imeOptions="actionSearch"
+            tools:targetApi="m" />
+
+        <!--<SearchView
+            android:id="@+id/sv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/searchbtn"
+            android:gravity="left|center"
+            android:queryHint="Search here..."
+            android:clickable="true"
+            android:searchIcon="@android:color/darker_gray"
+            android:searchHintIcon="@android:color/darker_gray"
+            android:theme="@style/TextViewBlack"
+            android:touchscreenBlocksFocus="true"
+            tools:targetApi="lollipop_mr1" />-->
+
+        <TextView
+            android:id="@+id/tv_back_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:theme="@style/TextViewBlack" />
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_e2" />
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/rela"
+        android:padding="@dimen/_5sdp"
+        android:layout_below="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rec_recentSearchList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/rec_recentSearchList"
+            android:background="@drawable/shadow"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Recent Search"
+            android:theme="@style/TextViewBlack">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_background"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgg"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/search"
+            android:backgroundTint="@color/gray_c6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/imgg"
+            android:id="@+id/tv_noProdctFound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/gray_c6"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

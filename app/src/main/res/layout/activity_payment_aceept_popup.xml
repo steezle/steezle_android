@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:id="@+id/ll_btn_vaction"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:background="@drawable/round_payment_icon"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/accepts_icon"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Accepted"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12pt"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:weightSum="4">
+    <Button
+        android:id="@+id/btn_vaction"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round"
+        android:drawableTop="@drawable/accepts_icon"
+        android:paddingBottom="7dp"
+        android:paddingTop="20dp"
+        android:textSize="13pt"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Payment accepts"
+        android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

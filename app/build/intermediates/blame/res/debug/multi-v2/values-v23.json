@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juli/Desktop/Fenny/steezle_android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/juli/Desktop/Fenny/steezle_android/app/src/main/res/values-v23/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "543"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "542"
+                    }
+                },
+                {
+                    "source": "/home/juli/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f57c4762bad5dd9527be76dc7d2be6dc/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,28,41,42,43,44,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "547,682,817,892,979,1769,2571,2698,2803,2918,3025",
+                        "endLines": "11,12,13,14,27,40,41,42,43,44,45",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "677,812,887,974,1764,2566,2693,2798,2913,3020,3133"
+                    }
+                },
+                {
+                    "source": "/home/juli/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/bd392ad533f521a62c49bd6acb049ebb/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "3138",
+                        "endLines": "48",
+                        "endColumns": "12",
+                        "endOffsets": "3283"
+                    }
+                }
+            ]
+        }
+    ]
+}

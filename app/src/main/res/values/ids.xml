@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navigation" type="id" />
+    <item name="profileImageView" type="id" />
+    <item name="btn_checkout" type="id" />
+    <item name="savecardlist" type="id" />
+    <item name="lin_sameaddress" type="id" />
+    <item name="error_valid_password" type="id" />
+
+</resources>

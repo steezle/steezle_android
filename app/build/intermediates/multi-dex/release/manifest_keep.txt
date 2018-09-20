@@ -1,0 +1,3 @@
+# Referenced at /home/juli/Desktop/Fenny/newProject/steezle_v2/app/build/intermediates/manifests/full/release/AndroidManifest.xml:33
+-keep class com.invitereferrals.invitereferrals.InviteReferralsApplication { <init>(...); }
+

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: at.blogc:expandabletextview-1.0.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.5.aar/5455891d701ec1605ad12b27ecf8aeb5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandabletextview-1.0.5.aar/5455891d701ec1605ad12b27ecf8aeb5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/at.blogc/expandabletextview/1.0.5/a6365348ac744f4341b89f415917796b9a3e2a65/expandabletextview-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
